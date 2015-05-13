@@ -9,13 +9,13 @@ package br.ifes.edu.poo2.cdp;
  *
  * @author Jordan-Not
  */
-public class NavioGraneleiro extends AbstractNavio{
+public class NavioCruzeiro extends AbstractNavio{
 
-    public NavioGraneleiro() {
-        capacidadeCarga = random.nextInt(200);
-        capacidadePessoa = random.nextInt(6);
+    public NavioCruzeiro() {
+        capacidadeCarga = 0;
+        capacidadePessoa = random.nextInt(500);
     }
-
+    
     @Override
     public int getCarga() {
         return capacidadeCarga;

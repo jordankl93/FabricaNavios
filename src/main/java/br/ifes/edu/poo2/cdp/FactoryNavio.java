@@ -9,9 +9,8 @@ package br.ifes.edu.poo2.cdp;
  *
  * @author Jordan-Not
  */
-public interface Navio {    
+public interface FactoryNavio {
     
-    public int getCarga();
-    public int getPassageiro();
+    public Navio criarNavio();
     
 }

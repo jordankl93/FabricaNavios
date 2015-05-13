@@ -3,15 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.ifes.edu.poo2.cdp;
+package br.ifes.edu.poo2.App;
 
 /**
  *
  * @author Jordan-Not
  */
-public interface Navio {    
+public class App {
     
-    public int getCarga();
-    public int getPassageiro();
+    public static void main(String[] args){
+        System.out.println("Hello, world!!");
+    }    
     
 }

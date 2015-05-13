@@ -9,9 +9,6 @@ package br.ifes.edu.poo2.cdp;
  *
  * @author Jordan-Not
  */
-public interface Navio {    
-    
-    public int getCarga();
-    public int getPassageiro();
-    
+public enum TipoNavio {
+    CARGA_GERAL, GRANELEIRO, ESCUNA, CRUZEIRO;    
 }

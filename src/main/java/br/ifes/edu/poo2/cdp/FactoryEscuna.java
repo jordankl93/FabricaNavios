@@ -9,9 +9,11 @@ package br.ifes.edu.poo2.cdp;
  *
  * @author Jordan-Not
  */
-public interface Navio {    
-    
-    public int getCarga();
-    public int getPassageiro();
+public class FactoryEscuna extends AbstractNavioFactory{
+
+    @Override
+    public Navio criarNavio() {
+        return new NavioEscuna();
+    }
     
 }

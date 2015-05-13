@@ -9,11 +9,11 @@ package br.ifes.edu.poo2.cdp;
  *
  * @author Jordan-Not
  */
-public class FactoryGraneleiro extends AbstractNavioCargaFactory{
+public class FactoryGraneleiro extends AbstractNavioFactory{
 
     @Override
-    public Navio create(int QtdPessoas, int QtdCarga) {
-        return new NavioGraneleiro(QtdPessoas, QtdCarga);
+    public Navio criarNavio() {
+        return new NavioGraneleiro();
     }
     
 }
