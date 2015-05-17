@@ -9,8 +9,8 @@ package br.ifes.edu.poo2.cdp;
  *
  * @author Jordan-Not
  */
-public abstract class AbstractNavioFactory implements FactoryNavio{
-    
+public class FactoryMethodNavio {
+
     public static Navio criarNavio(TipoNavio tipoNavio){
         FactoryNavio fabricaNavio;
         
@@ -26,6 +26,6 @@ public abstract class AbstractNavioFactory implements FactoryNavio{
                     fabricaNavio = new FactoryEscuna();                   
         
         return fabricaNavio.criarNavio();
-    }
+    }    
     
 }

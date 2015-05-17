@@ -9,7 +9,7 @@ package br.ifes.edu.poo2.cdp;
  *
  * @author Jordan-Not
  */
-public class FactoryGraneleiro extends AbstractNavioFactory{
+public class FactoryGraneleiro implements FactoryNavio{
 
     @Override
     public Navio criarNavio() {

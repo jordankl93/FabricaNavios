@@ -9,7 +9,7 @@ package br.ifes.edu.poo2.cdp;
  *
  * @author Jordan-Not
  */
-public class FactoryEscuna extends AbstractNavioFactory{
+public class FactoryEscuna implements FactoryNavio{
 
     @Override
     public Navio criarNavio() {

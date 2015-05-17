@@ -27,7 +27,7 @@ public class AbstractNavioFactoryTest {
         System.out.println("criarNavioEscuna");
         TipoNavio tipoNavio = TipoNavio.ESCUNA;
         Navio expResult = new NavioEscuna();
-        Navio result = AbstractNavioFactory.criarNavio(tipoNavio);
+        Navio result = FactoryMethodNavio.criarNavio(tipoNavio);
         assertEquals(expResult.getClass(), result.getClass());
     }
     
@@ -36,7 +36,7 @@ public class AbstractNavioFactoryTest {
         System.out.println("criarNavioCargaGeral");
         TipoNavio tipoNavio = TipoNavio.CARGA_GERAL;
         Navio expResult = new NavioCargaGeral();
-        Navio result = AbstractNavioFactory.criarNavio(tipoNavio);
+        Navio result = FactoryMethodNavio.criarNavio(tipoNavio);
         assertEquals(expResult.getClass(), result.getClass());
     }
     
@@ -45,7 +45,7 @@ public class AbstractNavioFactoryTest {
         System.out.println("criarNavioGraneleiro");
         TipoNavio tipoNavio = TipoNavio.GRANELEIRO;
         Navio expResult = new NavioGraneleiro();
-        Navio result = AbstractNavioFactory.criarNavio(tipoNavio);
+        Navio result = FactoryMethodNavio.criarNavio(tipoNavio);
         assertEquals(expResult.getClass(), result.getClass());
     }
     
@@ -54,7 +54,7 @@ public class AbstractNavioFactoryTest {
         System.out.println("criarNavioCruzeiro");
         TipoNavio tipoNavio = TipoNavio.CRUZEIRO;
         Navio expResult = new NavioCruzeiro();
-        Navio result = AbstractNavioFactory.criarNavio(tipoNavio);
+        Navio result = FactoryMethodNavio.criarNavio(tipoNavio);
         assertEquals(expResult.getClass(), result.getClass());
     }
     
